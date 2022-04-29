@@ -1,0 +1,142 @@
+@media only screen and (max-width: 480px) {
+    .heading {
+        font-size: 26px;
+    }
+
+    .navbar {
+        padding: 10px 17px !important;
+    }
+
+    #home,
+    #about,
+    #skills,
+    #projects {
+        padding-top: 50px !important;
+    }
+
+    #about .heading {
+        margin-bottom: 12px !important;
+    }
+
+    .h_para {
+        font-size: 18px;
+    }
+
+    .skills img {
+        width: 130px;
+    }
+
+    .skills .img_boot {
+        margin-top: 19px;
+        width: 74px;
+    }
+
+    .skills .img_java {
+        width: 138px;
+    }
+
+    .link_style {
+        margin-top: 10px !important;
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .contact_p_resp {
+        padding: 3px !important;
+    }
+
+    .hr_res {
+        width: 250px !important;
+    }
+
+    .my_res {
+        margin: 5px 0 !important;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+
+    /* FLOW: DOWN */
+    [tooltip][flow^="down"]::before {
+        top: calc(100% + 35px);
+        border-top-width: 0;
+        border-bottom-color: #333;
+    }
+
+    [tooltip][flow^="down"]::after {
+        top: calc(100% + 40px);
+    }
+
+    [tooltip][flow^="down"]::before,
+    [tooltip][flow^="down"]::after {
+        left: 50%;
+        transform: translate(-50%, .5em);
+    }
+
+    .c_btn {
+        font-size: 16px;
+    }
+
+    .social_links>div span {
+        margin-left: 0px;
+    }
+
+    .social_links>div a {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .gmail_icon {
+        margin-top: 0 !important;
+    }
+
+    .social-icons {
+        padding: 0 25px;
+    }
+
+    .project_btn {
+        margin-top: 15px !important;
+        /* flex-direction: ; */
+    }
+
+    .project_btn>a {
+        margin-top: 15px;
+    }
+
+    .c_btn {
+        font-size: 15px;
+        height: 33px;
+        padding: 5px 10px;
+    }
+
+    .left_div {
+        height: 250px !important;
+    }
+
+    .left_div img {
+        height: 100%;
+        /* object-fit: fill; */
+        object-fit: cover;
+    }
+
+    .right_div h1 {
+        font-size: 28px
+    }
+
+    .main_div {
+        padding: 35px 0px !important;
+    }
+
+    .mobile_btn a {
+        display: none;
+    }
+
+    .btn_mob {
+        display: inline-block;
+    }
+
+}
